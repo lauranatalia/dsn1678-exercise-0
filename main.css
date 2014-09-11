@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+dl{
+	border: 1px solid red;
+	/* overflow hidden is clearfix
+	it remins the <dl> to wrap wround its floated children
+	*/
+	overflow: hidden;
+}
+
+dt{
+	float: left;
+	clear: left;
+	width: 8em;
+}
+
+dd{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
